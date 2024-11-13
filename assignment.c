@@ -12,6 +12,14 @@ int main(int argc, char *argv[]) {
     int maxrand = 100;
 
     // WRITE YOUR CODE HERE
+    FILE *pFile = NULL;
+    char buffer[100];
+
+
+    if (argc != 2) {
+        sprintf(buffer, "Incorrect usage. You provided %d arguments. The correct number of arguments is 2\n", argc);
+        return 0;
+    }
     
 
     return 0;
