@@ -13,11 +13,11 @@ int main(int argc, char *argv[]) {
     char filename[11] = "matrix.txt";
 
     // WRITE YOUR CODE HERE
-    char buffer[100];
+    //char buffer[100];
 
 
     if (argc != 3 ) {
-        sprintf(buffer, "Incorrect usage. You provided %d arguments. The correct number of arguments is 2\n", argc);
+        printf("Incorrect usage. You provided %d arguments. The correct number of arguments is 2\n", argc - 1);
         return 0;
     }
 
